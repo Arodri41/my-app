@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+import Home from './components/inicio';
 import './App.css';
+import navbar from './components/navBar_';
+import itemListContainer from './components/itemListContainer_';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+   <Home  />
+   <itemListContainer imagen='https://www.supercoloring.com/sites/default/files/styles/coloring_full/public/cif/2022/01/164-waving-hand-emoji-coloring-page.png' />
     </div>
   );
 }
